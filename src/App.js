@@ -51,6 +51,15 @@ const experience = [
 	}];
 
 const sideProjects = [
+
+	{
+		when: new Date(2020, 4, 1),
+		name: "PicTips",
+		description: "Find your best 4 pictures for online dating",
+		where: "Menlo Park, California",
+		url: "https://pictips.me/",
+		what: "React, Firebase, Google Vision API, Stripe",
+	},
 	{
 		when: new Date(2019, 11, 1),
 		name: "QRPayments",
