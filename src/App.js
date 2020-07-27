@@ -9,6 +9,14 @@ let WHITE_BACKGROUND = "#d4f1fc";
 
 const experience = [
 	{
+		when: new Date(2020, 7, 1),
+		name: "Frontend Engineer",
+		description: "Facebook",
+		where: "Menlo Park, California",
+		url: "https://undefinedlabs.com/",
+		what: "React, Flux, Relay"
+	},
+	{
 		when: new Date(2019, 2, 1),
 		name: "Senior Frontend Engineer",
 		description: "Undefined Labs",
@@ -51,7 +59,14 @@ const experience = [
 	}];
 
 const sideProjects = [
-
+	{
+		when: new Date(2020, 6, 1),
+		name: "Cognition",
+		description: "Run cognitive experiments online.",
+		where: "Menlo Park, California",
+		url: "https://www.cognition.run/",
+		what: "React, Laravel, OAuth",
+	},
 	{
 		when: new Date(2020, 4, 1),
 		name: "PicTips",
