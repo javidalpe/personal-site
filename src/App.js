@@ -60,7 +60,7 @@ const experience = [
 
 const sideProjects = [
 	{
-		when: new Date(2020, 6, 1),
+		when: new Date(2020, 7, 1),
 		name: "Cognition",
 		description: "Run cognitive experiments online.",
 		where: "Menlo Park, California",
