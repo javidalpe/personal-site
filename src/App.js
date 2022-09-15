@@ -1,6 +1,5 @@
 import React from 'react';
 
-import logo from './sun-moon.svg';
 import Timeline from "./Timeline";
 import {grid, item} from "./utils";
 
@@ -74,6 +73,7 @@ const sideProjects = [
 		where: "Menlo Park, California",
 		url: "https://pictips.me/",
 		what: "React, Firebase, Google Vision API, Stripe",
+		died: true,
 	},
 	{
 		when: new Date(2019, 11, 1),
@@ -82,6 +82,7 @@ const sideProjects = [
 		where: "Madrid, Spain",
 		url: "https://qrpayments.app/",
 		what: "React, Firebase, Stripe",
+		died: true,
 	},
 	{
 		when: new Date(2018, 1, 1),
@@ -98,6 +99,7 @@ const sideProjects = [
 		where: "Madrid, Spain",
 		url: "https://www.infoboe.com",
 		what: "Laravel, React, Algolia",
+		died: true,
 	},
 
 	{
@@ -132,7 +134,7 @@ function App() {
 			<div style={{...item("1 / 1 / 2 / 2"), backgroundColor: WHITE_BACKGROUND}}/>
 			<div style={{...item("1 / 2 / 2 / 3"), backgroundColor: BLUE_BACKGROUND}}/>
 
-			<img src={logo} alt="logo" style={{maxWidth: 640, justifySelf: "center", ...item("1 / 1 / 2 / 3")}}/>
+			<img src="sun-moon.svg" alt="logo" style={{maxWidth: 640, justifySelf: "center", ...item("1 / 1 / 2 / 3")}}/>
 
 			<h1 style={{
 				...item("1 / 1 / 2 / 3"), margin: "auto",
