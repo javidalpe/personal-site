@@ -59,6 +59,15 @@ const experience = [
 
 const sideProjects = [
 	{
+		when: new Date(2022, 12, 1),
+		name: "Rentaldescriptions",
+		description: "AI-Generated descriptions for Airbnb",
+		where: "Menlo Park, California",
+		url: "https://www.rentaldescriptions.com/",
+		what: "React, Laravel, OAuth",
+		died: true,
+	},
+	{
 		when: new Date(2020, 7, 1),
 		name: "Cognition",
 		description: "Run cognitive experiments online.",
@@ -69,16 +78,16 @@ const sideProjects = [
 	{
 		when: new Date(2020, 4, 1),
 		name: "PicTips",
-		description: "Find your best 4 pictures for online dating",
+		description: "Find your best pictures for dating",
 		where: "Menlo Park, California",
 		url: "https://pictips.me/",
-		what: "React, Firebase, Google Vision API, Stripe",
+		what: "Firebase, Google Vision API, Stripe",
 		died: true,
 	},
 	{
 		when: new Date(2019, 11, 1),
 		name: "QRPayments",
-		description: "Accept in-person payments without hardware",
+		description: "In-person payments without hardware",
 		where: "Madrid, Spain",
 		url: "https://qrpayments.app/",
 		what: "React, Firebase, Stripe",
@@ -89,13 +98,13 @@ const sideProjects = [
 		name: "Gramatica",
 		description: "Grammarly for Spanish",
 		where: "Madrid, Spain",
-		what: "React, Google Chrome Extensions",
+		what: "React, Chrome Extensions",
 		died: true,
 	},
 	{
 		when: new Date(2017, 5, 1),
 		name: "Infoboe",
-		description: "Search engine for the Official Gazettes of Spain",
+		description: "Search engine for the BOE (Spain)",
 		where: "Madrid, Spain",
 		url: "https://www.infoboe.com",
 		what: "Laravel, React, Algolia",
